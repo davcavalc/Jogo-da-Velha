@@ -1,10 +1,43 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
 .container {
     display: flex;
+	flex-direction: column;
+	width: 500px;
+	align-items: center;
     justify-content: center;    
 }
 
 table td {
-	border: 1px solid grey;
+	border: 30px solid rgb(221, 220, 220);
 	width: 100px;
 	height: 100px;
+}
+
+button {
+	height: 30px;
+	background-color: rgb(111, 226, 111);
+	border-radius: 10px;
+	color: rgb(0, 0, 0);
+}
+
+p {
+	font-weight: bold;
+}
+
+nav {
+	height: 90px;
+	background-color: grey;
+	margin-bottom: 20px;
+}
+
+.title {
+	color: #fff;
+}
+
+.author {
+	color: #fff;
 }
