@@ -52,15 +52,10 @@ nav {
 .social-media {
 	width: 100px;
 	height: 150px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	margin-top: 20px;
 }
 
-a {
-	display: flex;
+.social-media a {
 	text-align: center;
-	align-items: center;
-	justify-content: space-between;
-	flex-direction: row;
 }
+
