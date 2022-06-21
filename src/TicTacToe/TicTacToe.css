@@ -1,7 +1,6 @@
 body {
 	margin: 0;
 	padding: 0;
-	background-image: url('https://cdn.pixabay.com/photo/2016/11/23/13/48/beach-1852945__340.jpg');
 }
 
 .container {
@@ -13,7 +12,7 @@ body {
 }
 
 table td {
-	border: 30px solid rgb(221, 220, 220);
+	border: 2px solid rgb(0, 0, 0);
 	width: 100px;
 	height: 100px;
 }
@@ -35,10 +34,33 @@ nav {
 	margin-bottom: 20px;
 }
 
-.title {
+.title, .author {
 	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-.author {
-	color: #fff;
+/* FOOTER */
+
+.footer {
+	height: 10%;
+	display: flex;
+	background-color: gray;
+}
+
+.social-media {
+	width: 100px;
+	height: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+a {
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: row;
 }
